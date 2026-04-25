@@ -15,7 +15,7 @@ Simulasi Keamanan Digital Arduino Uno In Tinkercad
  4. Micro Servo Motor
 
 # Skema Rangkaian
-<img width="883" height="883" alt="image" src="https://github.com/user-attachments/assets/10b64d75-50f1-4f39-a3ad-dffe94028b59" />
+<img width="1080" height="720" alt="image" src="https://github.com/user-attachments/assets/10b64d75-50f1-4f39-a3ad-dffe94028b59" />
 
 # Konfigurasi Pin
   | Komponen | Pin Arduino |
@@ -26,7 +26,7 @@ Simulasi Keamanan Digital Arduino Uno In Tinkercad
   | Servo Signal | Pin 10 |
   | Power | 5V & GND |
   
-# 🧠 Alur Logika (Flowchart)
+# Flowchart
 1. **Mulai**: LCD menampilkan "Masukkan Kode".
 2. **Input**: Pengguna menekan tombol di Keypad.
 3. **Proses**: Program menyimpan input dalam array dan membandingkannya dengan password master.
