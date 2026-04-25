@@ -26,7 +26,7 @@ Simulasi Keamanan Digital Arduino Uno In Tinkercad
   | Servo Signal | Pin 10 |
   | Power | 5V & GND |
   
-# Flowchart
+# Operasi 
  1. **Mulai**: LCD menampilkan "Pin".
  2. **Input**: Pengguna menekan tombol di Keypad.
  3. **Proses**: Program menyimpan input dalam array dan membandingkannya dengan password master.
