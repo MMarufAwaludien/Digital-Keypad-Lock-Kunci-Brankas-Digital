@@ -2,8 +2,8 @@
 #include <LiquidCrystal_I2C.h>
 #include <Servo.h>
 
-char password[] = "1234";
-char inputCode[5]; // Kapasitas 5 (4 angka + 1 null terminator)
+char password[] = "1234"; // Pin Agar Membuka, Bisa di Ubah Ubah Sesuai Keinginan
+char inputCode[5]; 
 int inputCount = 0;
 
 const byte ROWS = 4; 
@@ -39,7 +39,7 @@ void loop() {
     inputCount++;
 
     if (inputCount == 4) {
-      inputCode[inputCount] = '\0'; // PENTING: Menutup string agar strcmp bekerja
+      inputCode[inputCount] = '\0';
       delay(500);
       
       if (strcmp(inputCode, password) == 0) {
@@ -55,7 +55,7 @@ void loop() {
         delay(2000);
         resetLcd();
       }
-      inputCount = 0; // Reset hitungan
+      inputCount = 0;
     }
   }
 }
@@ -63,5 +63,5 @@ void loop() {
 void resetLcd() {
   lcd.clear();
   lcd.print("Pin :");
-  inputCount = 0; // Memastikan counter benar-benar nol
+  inputCount = 0;
 }
