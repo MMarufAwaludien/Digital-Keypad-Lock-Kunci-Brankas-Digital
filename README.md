@@ -22,17 +22,9 @@ Simulasi Keamanan Digital Arduino Uno In Tinkercad
   |---|---|
   | LCD SDA | A4 |
   | LCD SCL | A5 |
-  | Keypad (8 pins) | Pin 2 sampai 9 |
+  | Keypad (8 pins) | Digital Pin 2 sampai 9 |
   | Servo Signal | Pin 10 |
   | Power | 5V & GND |
-  
-# Flowchart
-1. **Mulai**: LCD menampilkan "Masukkan Kode".
-2. **Input**: Pengguna menekan tombol di Keypad.
-3. **Proses**: Program menyimpan input dalam array dan membandingkannya dengan password master.
-4. **Keputusan**:
-   - Jika **Sesuai**: Servo bergerak ke 90° -> LCD "Akses Diterima" -> Tunggu 3 detik -> Kunci kembali.
-   - Jika **Salah**: LCD "Salah Password!" -> Reset input.
 
 
 
