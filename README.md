@@ -30,7 +30,7 @@ Simulasi Keamanan Digital Arduino Uno In Tinkercad
  1. **Mulai**: LCD menampilkan "Pin".
  2. **Input**: Pengguna menekan tombol di Keypad.
  3. **Proses**: Program menyimpan input dalam array dan membandingkannya dengan password master.
- 4. **Keputusan**:
+ 4. **Hasil**:
     - Jika **Sesuai**: Servo bergerak ke 90° -> LCD "Akses Diterima" -> Tunggu 3 detik -> Kunci kembali.
     - Jika **Salah**: LCD "Salah Password!" -> Reset input.
 
