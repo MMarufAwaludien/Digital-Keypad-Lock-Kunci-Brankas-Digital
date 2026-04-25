@@ -14,4 +14,17 @@ Simulasi Keamanan Digital Arduino Uno In Tinkercad
  3. Keypad 4x4
  4. Micro Servo Motor
 
+# Skema Rangkaian
+<img width="1080" height="883" alt="image" src="https://github.com/user-attachments/assets/10b64d75-50f1-4f39-a3ad-dffe94028b59" />
+
+Konfigurasi Pin
+| Komponen | Pin Arduino |
+|---|---|
+| LCD SDA | A4 |
+| LCD SCL | A5 |
+| Keypad (8 pins) | Pin 2 sampai 9 |
+| Servo Signal | Pin 10 |
+| Power | 5V & GND |
+
+
 
